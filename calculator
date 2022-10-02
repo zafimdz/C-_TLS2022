@@ -7,7 +7,7 @@ int main() {
      char op;
      
      //masukkan angka disini
-     cout<< "calculator"<< endl;
+     cout<< "CALCULATE!"<< endl;
      cin >> j >> op >> k;
      
      //tergantung operator langsung dikeluarkan hasilnya 
