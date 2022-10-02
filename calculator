@@ -1,0 +1,40 @@
+#include <iostream>
+
+int main() {
+     using namespace std;
+     
+     float j,k;
+     char op;
+     
+     //masukkan angka disini
+     cout<< "calculator"<< endl;
+     cin >> j >> op >> k;
+     
+     //tergantung operator langsung dikeluarkan hasilnya 
+     switch (op){
+     
+     case '+':
+     cout << j+k;
+     break;
+     
+     case '-':
+     cout << j-k;
+     break;
+     
+     case '*':
+     cout << j*k;
+     break;
+     
+     case '/':
+     cout << j/k;
+     break;
+     
+     default :
+     cout << "error unable to calculate";
+     break;
+     }
+     
+     
+
+    return 0;
+}
